@@ -1,0 +1,42 @@
+
+
+.header-top{
+    display: flex;
+    margin: 0px 0px 0px 20px;
+    
+}
+
+.d-flex{
+    display: flex;
+    margin: 0px 0px 0px 50px ;
+}
+
+.line-1 {
+    width: 727px;
+    height: 1px;
+    flex-grow: 0;
+    margin: 19px 0 27px;
+    background-color: rgba(196, 196, 196, 0.4);
+  }
+
+  h3{
+       margin-left: 15px;
+       margin: 3px 0px 0px 15px;
+  }
+.cross{
+    cursor: pointer;
+    background-color: floralwhite;
+}
+  .grey{
+      /* padding:10px; */
+      padding-bottom: 0px;
+      color: grey;
+  }
+  .cross:hover {
+    background-color: rgb(223, 221, 217);
+    /* padding-top: 5px; */
+    /* padding-left: 2px; */
+    /* padding-bottom: 3px; */
+  
+    border-radius: 5px;
+  }
