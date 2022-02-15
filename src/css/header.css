@@ -1,12 +1,1 @@
 
-.header {
-    width: 800px;
-    height: 420px;
-    flex-grow: 0;
-    margin: 0px 500px 0px 500px;
-    padding: 24px 18px 130px;
-    border-radius: 16px;
-    box-shadow: 0 4px 20px 5px rgba(160, 160, 160, 0.15);
-    border: solid 1px #fff;
-    background-color: #fff;
-  }
