@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Codemancers-GIF-Assignment/static/css/main.1c224110.css",
-    "main.js": "/Codemancers-GIF-Assignment/static/js/main.41afda3e.js",
+    "main.js": "/Codemancers-GIF-Assignment/static/js/main.f66dc0ff.js",
     "static/js/787.c2e8296f.chunk.js": "/Codemancers-GIF-Assignment/static/js/787.c2e8296f.chunk.js",
     "index.html": "/Codemancers-GIF-Assignment/index.html",
     "main.1c224110.css.map": "/Codemancers-GIF-Assignment/static/css/main.1c224110.css.map",
-    "main.41afda3e.js.map": "/Codemancers-GIF-Assignment/static/js/main.41afda3e.js.map",
+    "main.f66dc0ff.js.map": "/Codemancers-GIF-Assignment/static/js/main.f66dc0ff.js.map",
     "787.c2e8296f.chunk.js.map": "/Codemancers-GIF-Assignment/static/js/787.c2e8296f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c224110.css",
-    "static/js/main.41afda3e.js"
+    "static/js/main.f66dc0ff.js"
   ]
 }
