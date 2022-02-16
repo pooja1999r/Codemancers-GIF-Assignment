@@ -127,6 +127,7 @@ function Header3() {
                                 placeholder="Tag Event " />
                         </div>
                     </div>
+                   <p > add text in gif and then click on GIF Icon for fetch gif after that click on submit </p>
                     <div className='line-3'></div>
 
                     <div className='gif-button'>
