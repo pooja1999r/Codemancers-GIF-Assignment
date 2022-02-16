@@ -17,6 +17,7 @@ function Header3() {
    
     //     const [{ user }, dispatch] = useStateValue()
     const [input, setInput] = useState('');
+    const [input1, setInput1] = useState('');
     const [gif, setGIF] = useState('');
     const [result, setResults] = useState('');
     const [output, setOutput] = useState('');
@@ -45,16 +46,23 @@ function Header3() {
         //change error state back to false
         console.log(gif);
         console.log(result);
+       
         // console.log(input);
 
     }
 
     const handleSubmit = (e) => {
+
         e.preventDefault();
         if (result !== '') {
             console.log(result, "result");
             setOutput(result);
             setResults('');
+        }
+        setInput1(input)
+        if(gif!==""){
+            setGIF('');
+            setInput('')
         }
     }
     return (
@@ -141,9 +149,10 @@ function Header3() {
             </div>
             <div className='lower-div'>
             {output ? (<div className='output'>
-                <h2 className='output-img'>{input}</h2>
+                <h2 className='output-img'>{input1}</h2>
                 <div className='line-3'></div>
                 <img src={output} width="600" height="420" className='output-img' />
+                
                 {/* <embed type="image/*" src={output}  width="300" height="200" /> */}
             </div>) : (<p className='' ></p>)}
             </div>
