@@ -15,7 +15,7 @@ export default function () {
         </div>
         <div className='d-flex photo'>
           <PhotoSizeSelectActualIcon />
-          <h3>Photos/Vedios Album</h3>
+          <h3>Photos/videos Album</h3>
         </div>
         <div className=' d-flex vedio'>
          <LiveTvIcon />
